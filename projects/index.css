@@ -1,0 +1,48 @@
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.slideshow-slide {
+    display: none;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.slideshow-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slideshow-prev, .slideshow-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.slideshow-prev:hover, .slideshow-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slideshow-prev {
+    left: 0;
+}
+
+.slideshow-next {
+    right: 0;
+}
+
+.featured-project-title {
+    color: #FFD700;
+}

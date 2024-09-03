@@ -1,0 +1,78 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    margin-left: 20px;
+}
+
+.profile-info .name {
+    color: #aaa;
+    cursor: pointer;
+    position: relative;
+}
+
+.profile-info .name:hover::after {
+    content: "PGP Fingerprint: 65E4 0FA6 EEE5 6E5C F9BC 1406 C2FB 87E7 1C42 5126";
+    position: absolute;
+    left: 0;
+    top: 120%;
+    width: max-content;
+    background-color: #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    color: #fff;
+    z-index: 10;
+    font-size: 12px;
+}
+
+.discord {
+    background-color: #7289DA;
+}
+
+.email {
+    background-color: #3498db;
+}
+
+.youtube {
+    background-color: #FF0000;
+}
+
+.twitch {
+    background-color: #9146FF;
+}
+
+.github {
+    background-color: #000000;
+}
+
+.modrinth {
+    background-color: #1FAA59;
+}
+
+.curseforge {
+    background-color: #F16436;
+}
+
+.guilded {
+    background-color: #FFCC00;
+    color: black;
+}
+
+.hangar {
+    background-color: #E1E1E1;
+    color: black;
+}
+
+.x {
+    background-color: #1DA1F2;
+}
+
+.spigot {
+    background-color: #F16436;
+}
