@@ -70,9 +70,13 @@
 }
 
 .x {
-    background-color: #1DA1F2;
+    background-color: #000000;
 }
 
 .spigot {
     background-color: #F16436;
+}
+
+.bluesky {
+    background-color: #1DA1F2;
 }
