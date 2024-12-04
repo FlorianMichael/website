@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../shared/shared.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <script defer src="script.js"></script>
 </head>
 <body>
 <div class="tab-bar">
@@ -25,13 +27,6 @@
             your support contributes to my professional development outside the virtual world.</p>
         <p>Thank you for considering a donation to sustain and enhance my contributions!</p>
 
-        <div class="single-widget">
-            <img src="https://github-readme-stats.vercel.app/api?username=FlorianMichael&show_icons=true&include_all_commits=true&theme=dark"
-                 alt="GitHub Stats">
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=FlorianMichael&theme=dark"
-                 alt="GitHub Streak Stats">
-        </div>
-
         <ul class="donate-list">
             <li><a href="https://www.paypal.com/donate/?hosted_button_id=9RJRFKZQ2JTZS" class="button paypal"><i
                     class="fab fa-paypal"></i> PayPal</a></li>
@@ -40,6 +35,15 @@
             <li><a href="https://github.com/sponsors/FlorianMichael" class="button ghsponsors"><i
                     class="fab fa-github"></i> GitHub Sponsors</a></li>
         </ul>
+    </div>
+
+    <div class="box" id="gh-widgets" style="display: none;">
+        <div class="single-widget">
+            <img src="https://github-readme-stats.vercel.app/api?username=FlorianMichael&show_icons=true&include_all_commits=true&theme=dark"
+                 alt="GitHub Stats" id="gh-stats">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=FlorianMichael&theme=dark"
+                 alt="GitHub Streak Stats" id="gh-streak">
+        </div>
     </div>
 </div>
 
