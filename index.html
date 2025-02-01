@@ -4,89 +4,44 @@
     <meta charset="UTF-8">
     <link href="data/favicon.ico" rel="icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EnZaXD | About Me</title>
+    <title>Donate</title>
     <link rel="stylesheet" href="shared/shared.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <script defer src="script.js"></script>
 </head>
 <body>
 <div class="tab-bar">
-    <a href="https://florianmichael.de/" class="tab">About Me</a>
-    <a href="https://florianmichael.de/projects/" class="tab">Projects</a>
     <a href="https://florianmichael.de/donate/" class="tab">Donate</a>
     <a href="https://discord.gg/97GXQxuf7W" class="tab">Discord</a>
 </div>
 
 <div class="container">
     <div class="box">
-        <div class="profile-container">
-            <img src="data/avatar.png" alt="Avatar"
-                 style="width: 100px; height: 100px; border-radius: 50%;">
+        <h4>Hi! I'm Florian Michael, sometimes also known online as EnZaXD.</h4>
+        <p>I dedicate nearly all my spare time to developing open-source projects on GitHub. Your donations can help
+            support and motivate me, covering essential expenses like domain fees and other services. Additionally,
+            your support contributes to my professional development outside the virtual world.</p>
+        <p>Thank you for considering a donation to sustain and enhance my contributions!</p>
 
-            <div class="profile-info">
-                <h2>EnZaXD <span class="name">FlorianMichael</span></h2>
-            </div>
-        </div>
-
-        <div class="description">
-            <h4>Hi there! 👋</h4>
-            <p>I'm Florian, also known as EnZaXD, a 17-year-old Java enthusiast and student from Germany. You'll find me
-                active around the <a href="https://www.minecraft.net/" target="_blank"
-                                     data-link="https://www.minecraft.net/">Minecraft</a> community.</p>
-
-            <p>
-                - I'm a core developer of the <a href="https://github.com/ViaVersion/ViaVersion" target="_blank"
-                                                 data-link="https://github.com/ViaVersion/ViaVersion">ViaVersion
-                Project</a>, a widely-used Minecraft plugin enabling compatibility between different game versions.
-                With over 15 million downloads, it's the largest plugin in the Minecraft community.
-            </p>
-
-            <p>
-                - I also work at the <a href="https://www.cytooxien.de/" target="_blank"
-                                        data-link="https://www.cytooxien.de/">Cytooxien Minecraft Network</a>, one of
-                Germany's oldest and most popular Minecraft servers, online since 2011 and hosting hundreds of daily
-                players.
-            </p>
-
-            <p>
-                - In my free time, I publish and work on various small Java projects on my <a
-                    href="https://github.com/FlorianMichael?tab=repositories" target="_blank"
-                    data-link="https://github.com/FlorianMichael?tab=repositories">GitHub profile</a>.
-            </p>
-
-            <p>
-                As a Minecraft server owner, you are likely using the software I help maintain. Feel free to <a
-                    href="https://florianmichael.de/donate/" data-link="donate">sponsor me</a>!
-            </p>
-        </div>
+        <ul class="donate-list">
+            <li><a href="https://www.paypal.com/donate/?hosted_button_id=9RJRFKZQ2JTZS" class="button paypal"><i
+                    class="fab fa-paypal"></i> PayPal</a></li>
+            <li><a href="https://ko-fi.com/florianmichael" class="button kofi"><i class="fas fa-coffee"></i>
+                KoFi</a></li>
+            <li><a href="https://github.com/sponsors/FlorianMichael" class="button ghsponsors"><i
+                    class="fab fa-github"></i> GitHub Sponsors</a></li>
+        </ul>
     </div>
 
-    <div class="box">
-        <h3>Socials</h3>
-        <ul>
-            <li><a href="#" class="button discord"><i class="fab fa-discord"></i> florianmichael</a></li>
-            <li><a href="mailto:florian.michael07@gmail.com" class="button email"><i
-                    class="fas fa-envelope"></i>Mail</a></li>
-            <li><a href="https://www.youtube.com/channel/UCR6ffvVefB0uD8lQLtyoJQg" class="button youtube"><i
-                    class="fab fa-youtube"></i> YouTube</a></li>
-            <li><a href="https://www.twitch.tv/florianmichael" class="button twitch"><i class="fab fa-twitch"></i>Twitch</a>
-            </li>
-            <li><a href="https://github.com/FlorianMichael" class="button github"><i
-                    class="fab fa-github"></i>GitHub</a></li>
-            <li><a href="https://modrinth.com/user/FlorianMichael" class="button modrinth"><i class="fab fa-modx"></i>
-                Modrinth</a></li>
-            <li><a href="https://www.curseforge.com/members/enzaxd/projects" class="button curseforge"><i
-                    class="fab fa-curseforge"></i> CurseForge</a></li>
-            <li><a href="https://www.guilded.gg/u/FlorianMichael" class="button guilded"><i class="fab fa-guilded"></i>
-                Guilded</a></li>
-            <li><a href="https://hangar.papermc.io/EnZaXD" class="button hangar"><i class="fas fa-tools"></i> Hangar</a>
-            </li>
-            <li><a href="https://x.com/enzaxd" class="button x"><i class="fab fa-twitter"></i> X</a></li>
-            <li><a href="https://www.spigotmc.org/members/enzaxd.1893713/" class="button spigot"><i
-                    class="fas fa-server"></i> SpigotMC</a></li>
-            <li><a href="https://bsky.app/profile/florianmichael.de" class="button bluesky"><i
-                    class="fab fa-skyatlas"></i> BlueSky</a></li>
-        </ul>
+    <div class="box" id="gh-widgets" style="display: none;">
+        <div class="single-widget">
+            <img src="https://github-readme-stats.vercel.app/api?username=FlorianMichael&show_icons=true&include_all_commits=true&theme=dark"
+                 alt="GitHub Stats" id="gh-stats">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=FlorianMichael&theme=dark"
+                 alt="GitHub Streak Stats" id="gh-streak">
+        </div>
     </div>
 </div>
 
