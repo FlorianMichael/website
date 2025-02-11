@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="../data/favicon.ico" rel="icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EnZaXD | A new page</title>
+    <title>Title</title>
     <link rel="stylesheet" href="shared/shared.css">
-    //<link rel="stylesheet" href="index.css">
-    //<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
-<div class="tab-bar">
-    <a href="https://florianmichael.de/" class="tab">About Me</a>
-    <a href="https://florianmichael.de/projects/" class="tab">Projects</a>
-    <a href="https://florianmichael.de/donate/" class="tab">Donate</a>
-    <a href="https://discord.gg/97GXQxuf7W" class="tab">Discord</a>
-</div>
-
 <div class="container">
+    <img src="data/avatar.png" alt="Avatar" class="avatar-img">
+    <div class="name">FlorianMichael</div>
+    <div class="bio">Passionate Java developer and tech enthusiast.</div>
+    <div class="social-links">
+        <a href="https://discord.gg/97GXQxuf7W">Discord</a> |
+        <a href="https://florianmichael.de/donate/">Donate</a> |
+        <a href="https://github.com/FlorianMichael">GitHub</a>
+    </div>
 </div>
-
-<a href="https://florianmichael.de/status" class="status-link" target="_blank">Status page</a>
-
+<a href="https://florianmichael.de/status" class="status-button" target="_blank">Status page</a>
 </body>
 </html>
