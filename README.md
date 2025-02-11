@@ -1,2 +1,2 @@
 # website
-https://florianmichael.de Source Code Mirror - This is a publish-only repository but pull requests are still accepted.
+Source code mirror of [florianmichael.de](https://florianmichael.de). Pull requests welcome.
